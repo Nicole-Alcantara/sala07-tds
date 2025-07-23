@@ -33,5 +33,14 @@ function div(){
         resposta.textContent = "NÃO SE DIVIDE POR 0 IMBECIL"
     }
     //console.log(numero1, numero2)
+}
 
+function media(){
+    var n9 = parseFloat(document.getElementById("n9").value)
+    var n10 = parseFloat(document.getElementById("n10").value)
+    var n11 = parseFloat(document.getElementById("n11").value)
+    var n12 = parseFloat(document.getElementById("n12").value)
+    var n13 = parseFloat(document.getElementById("n13").value)
+    var resposta = document.getElementById("respMedia")
+    resposta.textContent = (n9 + n10 + n11 + n12 + n13) / 5
 }
