@@ -46,7 +46,9 @@ const media = () => {
     var resposta = (n9 + n10 + n11 + n12 + n13) / 5
     if(resposta >= 7){
         respMedia.style.color = 'green'
+        respMedia.style.background = 'lightgreen'
     }else{
         respMedia.style.color = 'red'
+        respMedia.style.background = 'lightpink'
     }
 }

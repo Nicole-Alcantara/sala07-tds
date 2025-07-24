@@ -95,3 +95,15 @@ input:focus{
     cursor: pointer;
     color: black;
 }
+
+#respMedia{
+    font-size: 36px;
+    background-color: white;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
