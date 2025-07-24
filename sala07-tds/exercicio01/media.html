@@ -5,22 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media</title>
     <link rel="stylesheet" href="mediaStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 </head>
 <body class="background">
-    <h1>Cálculo da Media</h1>
+    <h1>Cálculo da Média</h1>
     <br>
-    <label for="n9">Digite sua primeira nota</label><br>
-    <input type="number" id="n9" placeholder="Digite sua nota"><br><br>
-    <label for="n10">Digite sua segunda nota</label><br>
-    <input type="number" id="n10" placeholder="Digite sua nota"><br><br>
-    <label for="n11">Digite sua terceira nota</label><br>
-    <input type="number" id="n11" placeholder="Digite sua nota"><br><br> 
-    <label for="n12">Digite sua quarta nota</label><br>
-    <input type="number" id="n12" placeholder="Digite sua nota"><br><br> 
-    <label for="n13">Digite sua quinta nota</label><br>
-    <input type="number" id="n13" placeholder="Digite sua nota"><br><br>
+    <div class="container"> 
+    <label for="n9">Digite sua primeira nota</label>
+    <input type="number" id="n9" placeholder="Digite sua nota">
+    <label for="n10">Digite sua segunda nota</label>
+    <input type="number" id="n10" placeholder="Digite sua nota">
+    <label for="n11">Digite sua terceira nota</label>
+    <input type="number" id="n11" placeholder="Digite sua nota"> 
+    <label for="n12">Digite sua quarta nota</label>
+    <input type="number" id="n12" placeholder="Digite sua nota"> 
+    <label for="n13">Digite sua quinta nota</label>
+    <input type="number" id="n13" placeholder="Digite sua nota">
 
-    <button onclick="media()">CALCULAR</button>
+    <button class="btn" onclick="media()">CALCULAR</button>
+   </div>
     <h2 id="respMedia"></h2>
 
     <script src="script.js"></script>
