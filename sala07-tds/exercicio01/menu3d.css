@@ -16,13 +16,13 @@ ul{
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
-    gap: 40%;
+    gap: 40px;
     list-style: none;
 }
 
 ul li a i{
     font-size: 30px;
-    color: black;
+    color: rgb(255, 255, 255);
     line-height: 80px;
     transition: 0.5s;
     padding-right: 20px;
@@ -32,8 +32,65 @@ ul li a i{
 ul li a span{
     position: absolute;
     top: 30px;
-    color: black;
+    color: rgb(255, 255, 255);
     letter-spacing: 4px;
     transition: 0.5s;
-    
+}
+ul li a{
+    width: 230px;
+    height: 80px;
+    background-color: #76b1f0;
+    display: block;
+    text-align: left;
+    padding-left: 15px;
+    transform: rotate(-30deg) skewX(25deg) translate(0,0);
+    transition: 0.5s;
+    box-shadow: -20px 20px 10px rgb(35, 83, 171);
+}
+
+ul li a:before{  
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    height: 100%;
+    width: 20px;
+    background: #76b1f0;
+    transform: rotate(0deg)  skewY(-45deg);
+}
+ul li a:after{
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: -10px;
+    height: 20px;
+    width: 100%;
+    background: #76b1f0;
+    transform: rotate(0deg) skewX(-45deg);
+}
+
+ul li a:hover{
+    transform: rotate(-30deg) skew(25deg) translate(30px, -30px);
+    box-shadow: -80px 80px 80px rgb(35, 83, 171);
+}
+
+ul li:hover i{
+color: blue;
+
+}
+
+ul li:hover span{
+color: blue;
+}
+
+ul li:hover a{
+    background-color: rgb(229, 158, 224);
+}
+
+ul li:hover a:before{
+    background-color: rgb(231, 119, 223);
+}
+
+ul li:hover a:after{
+    background-color: rgb(236, 81, 226);
 }
