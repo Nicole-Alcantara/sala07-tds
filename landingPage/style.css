@@ -36,9 +36,35 @@ nav a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    justify-content: center;
     gap: 20px;
+    background-color: rgb(141, 45, 45);
+    color: #fff;
 }
+.wrap-img{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 6px solid #450005;
+    box-shadow: rgba(255, 190, 190, 0.35) 0px 5px 15px;
+}
+
+.ima-s1{
+    width: 300px;
+    height: auto;
+    transition: all 200ms ease-in-out;
+}
+
+.ima-s1:hover{
+    transform: scale(1.2);
+}
+
+.wrap-words{
+    width: 40%;
+}
+
 #s2{
     min-height: 100vh;
     padding-top: 80px;
